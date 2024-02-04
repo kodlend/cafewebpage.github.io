@@ -1,0 +1,10 @@
+.main_section {
+    width: 100vw;
+    height: auto;
+    background-image: url("https://i.postimg.cc/GtVy3g1T/pexels-lisa-fotios-2193600.jpg");
+    background-size: cover;
+}
+
+div {
+    display: block;
+}
