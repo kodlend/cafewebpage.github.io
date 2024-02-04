@@ -1,10 +1,11 @@
+
+
 .main_section {
+    left: 0%;
+    right: 0%;
+    margin: 0px;
     width: 100vw;
     height: auto;
-    background-image: url("https://i.postimg.cc/GtVy3g1T/pexels-lisa-fotios-2193600.jpg");
+    background-image: url(https://i.postimg.cc/GtVy3g1T/pexels-lisa-fotios-2193600.jpg);
     background-size: cover;
-}
-
-div {
-    display: block;
 }
