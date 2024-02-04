@@ -1,11 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
-
-.main_section {
-    left: 0%;
-    right: 0%;
-    margin: 0px;
+.background-container{
+    position:fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
     width: 100vw;
-    height: auto;
-    background-image: url(https://i.postimg.cc/GtVy3g1T/pexels-lisa-fotios-2193600.jpg);
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/nr6D1tfT/pexels-percival-ian-muico-2835547.jpg");
     background-size: cover;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.main-section {
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    margin-top: 40%;
+    padding: 0;
+    z-index: 1;
 }
