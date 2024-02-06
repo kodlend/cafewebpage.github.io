@@ -1,26 +1,79 @@
+html {
+    font-size: 16px;
+}
 body {
+    height: 100vh;
+    width: 100vw;
     margin: 0;
     padding: 0;
 }
 
-.background-container{
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(82,59,53);
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, a {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: rgb(245, 189, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-home{
+    margin-right: 20px;
+}
+
+.nav-bar {
+    margin: 0;
+    height:fit-content;
+}
+
+.list-container {
+    display:flex;
+    justify-content: center;
+    height:fit-content;
+}
+
+.background-container {
     position:fixed;
     left: 0;
     top: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url("https://i.postimg.cc/nr6D1tfT/pexels-percival-ian-muico-2835547.jpg");
-    background-size: cover;
-    backdrop-filter: blur(10px);
     z-index: -1;
-}
 
-.header {
-    position: relative;
-    left: 0;
-    top: 0;
-    z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+} 
+
+.background-image {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    filter: blur(10px) drop-shadow(rgba(82,59,53, 0.7));
 }
 
 .main-section {
@@ -30,5 +83,7 @@ body {
     background-color: antiquewhite;
     margin-top: 40%;
     padding: 0;
-    z-index: 1;
+    z-index: 2;
 }
+
+
